@@ -34,6 +34,23 @@ html, body {
     }
 }
 
+a {
+    text-decoration: none;
+    color: var(--cor0);
+    font-family: var(--font2);
+    font-weight: lighter;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #86563D;
+}
+
+a:active {
+    color: var(--cor0);
+}
+
 #intro {
     font-size: 2em;
     font-weight: 500;
@@ -50,7 +67,7 @@ html, body {
 }
 
 
-#title {
+.heading-intro {
     color: var(--cor0);
     font-family: var(--font2);
     font-size: 2.5em;
@@ -102,22 +119,6 @@ html, body {
     margin-bottom: 12px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--cor0);
-    font-family: var(--font2);
-    font-weight: lighter;
-}
-
-a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #86563D;
-}
-
-a:active {
-    color: var(--cor0);
-}
 
 .book-image:hover{
     transform: scale(1.1);
@@ -160,7 +161,7 @@ a:active {
 }
 
 #copyright-content {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 
