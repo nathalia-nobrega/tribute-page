@@ -28,6 +28,12 @@ html, body {
       font-family: var(--font3);
   }
 
+  @media (max-width: 400px){
+    p {
+        font-size: 1em;
+    }
+}
+
 #intro {
     font-size: 2em;
     font-weight: 500;
@@ -36,18 +42,19 @@ html, body {
 .intro {
     padding-top: 25px;
     padding-bottom: 55px;
-    background-image: url(imagens/MV5BMTM0MjM0MjAzNV5BMl5BanBnXkFtZTcwOTA3MDIzNg@@._V1_.jpg);
+    background-image: url(imagens/angela-pics/MV5BMTM0MjM0MjAzNV5BMl5BanBnXkFtZTcwOTA3MDIzNg@@._V1_.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 700px;
     background-attachment: fixed;
 }
 
-.heading-intro {
+
+#title {
     color: var(--cor0);
     font-family: var(--font2);
     font-size: 2.5em;
-    margin-left: 30%;
+    
 }
 
 #sub-title-intro {
@@ -55,7 +62,6 @@ html, body {
     font-family: var(--font3);
     font-size: 17px;
     font-weight: 300;
-    margin-left: 33%;
 }
 
 #about-her {
@@ -63,6 +69,10 @@ html, body {
     color: var(--cor0);
     padding-top: 7%;
     text-align: justify;
+}
+
+#tribute-link {
+    text-decoration: underline;
 }
 
 .about-her-images {
@@ -78,7 +88,6 @@ html, body {
 
 .about-her-content {
       margin-top: 20px;
-    
 }
 
 #books {
@@ -116,6 +125,26 @@ a:active {
     margin-top: 10px;
 }
 
+#principais-frases {
+    background-color: var(--cor2);
+    color: var(--cor0);
+    padding-top: 7%;
+    padding-bottom: 3%;
+    background-image: url(imagens/angela-pics/30012338d7f479486c13676a66c3652b.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.frases {
+    font-family: var(--font4);
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+
+
 .footer {
     background-color: var(--cor4);
     padding-top: 20px;
@@ -130,20 +159,8 @@ a:active {
     padding-left: 15px;
 }
 
-#principais-frases {
-    background-color: var(--cor2);
-    color: var(--cor0);
-    padding-top: 7%;
-    padding-bottom: 3%;
-    background-image: url(imagens/30012338d7f479486c13676a66c3652b.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+#copyright-content {
+    margin-top: 10px;
 }
 
-.frases {
-    font-family: var(--font4);
-    font-weight: 200;
-    text-align: justify;
-    padding-left: 10px;
-    padding-top: 10px;
-}
+
